@@ -1,1 +1,6 @@
-  SELECT MAX(salary) FROM employee WHERE salary <(SELECT MAX(salary) FROM employee);
+Second highest employee salary  
+SELECT MAX(salary) FROM employee WHERE salary <(SELECT MAX(salary) FROM employee);
+
+
+ code to find duplicates
+SELECT emp_id, COUNT(*) as dup FROM employee GROUP BY emp_id HAVING dup > 1; 
