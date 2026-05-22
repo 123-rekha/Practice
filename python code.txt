@@ -14,7 +14,7 @@ for i in words:
  if i in ['a','e','i','o','u']:
 	print('vowels are: i')
 else:
-	print('these are consonents:')
+	print('these are consonents:i')
 
 # capping
 def capping(df,cols):
@@ -28,3 +28,5 @@ for i in cols:
 capping(df, num_cols)
 
 
+def capping (df,cols):
+for i in cols:
