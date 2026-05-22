@@ -4,3 +4,6 @@ SELECT MAX(salary) FROM employee WHERE salary <(SELECT MAX(salary) FROM employee
 
  code to find duplicates
 SELECT emp_id, COUNT(*) as dup FROM employee GROUP BY emp_id HAVING dup > 1; 
+
+code to remove duplicates
+ DELETE FROM employee WHERE emp_id NOT IN (SELECT MIN(emp_id FROM employee);
