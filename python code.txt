@@ -6,3 +6,13 @@ if i% 2 == 0:
  print('Even numbers')
 else:
  print('odd numbers')
+
+segregating vowels & consonents
+ words = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o]
+
+for i in words:
+ if i in ['a','e','i','o','u']:
+	print('vowels are: i')
+else:
+	print('these are consonents:')
+
