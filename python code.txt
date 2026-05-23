@@ -28,5 +28,3 @@ for i in cols:
 capping(df, num_cols)
 
 
-def capping (df,cols):
-for i in cols:
